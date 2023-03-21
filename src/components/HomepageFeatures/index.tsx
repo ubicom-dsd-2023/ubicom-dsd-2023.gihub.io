@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Sensor Services',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/sensor.svg').default,
     description: (
       <>
       The best solution ever created.
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'IA/ML - Cognitive Services',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/ia.svg').default,
     description: (
       <>
       I am the greatest intelligence.<br/>
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Storage Services',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/db.svg').default,
     description: (
       <>
       I store the world and more and more <br/> and more and more... 
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Server',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/server.svg').default,
     description: (
       <> 
       No one is faster than me at serving.<br/>
@@ -49,7 +49,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Webpage',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/web.svg').default,
     description: (
       <>
       To see or not to see? That is the question. 
@@ -58,7 +58,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Mobile App',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/mobile.svg').default,
     description: (
       <>
         I'm great, I'm awesome, I'm ... ... ...  <br/> "empty battery"

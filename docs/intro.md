@@ -2,46 +2,34 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# DSD UbiCom 2023
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This project is a collaborative project between the DSD course at Jilin University in China, and Ubiquitous Computing at the University of Trás-os-Montes e Alto Douro, Portugal.
 
-## Getting Started
+<div align="center">
+    <img  src="https://raw.githubusercontent.com/ubicom-dsd-2023/.github/main/profile/MoPre.png"/>
+</div>
 
-Get started by **creating a new site**.
+## Motion Prediction
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### About
 
-### What you'll need
+Nowadays, the aged or disabled people are benefiting from the advances of high-techs such as computer aided __X__. With the application of deep neural networks, computers are smarter than ever to predict the intention of human beings. This means that more and more smart systems can be used to help take care of people with special needs.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+O Motion Prediction (MoPre) is a software system to predict the user’s motion intention in the future time interval.
+It is a 3-stage process.
 
-## Generate a new site
+1. Track the motion of users using 6-axis sensors, bind to legs, to form a labeled dataset of human motions. These data are collected using Bluetooth;
+2. Train a common-sense deep neural network to predict human motions in general (via the dataset);
+3. Provide a mechanism with an adjustable network structure to predict the personal intention of a real-world user, with a relatively small number of new-coming motions tracked at run-time.
 
-Generate a new Docusaurus site using the **classic template**.
+### Requirements
 
-The classic template will automatically be added to your project after you run the command:
+The system described above should provide at least the following features:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Data acquisition and upload based on an embedded system (such as Raspberry Pi) with a configuration GUI (to setup the operational parameters, for example: IP address of the server to upload data, sampling rate);
+- A REST API to communicate with the remote data acquisition system and any other external module (example: dashboard, Mobile APP);
+- A Database to laundry, manage and store the data collected from the sensors and the setup the parameters of the data acquisition system (Raspberry Pi);
+- A prediction algorithm providing almost real-time responses;
+- Dashboard where the historical and real-time data collected from the sensors and the predicted movement are displayed;
+- An Android/IOS mobile APP.

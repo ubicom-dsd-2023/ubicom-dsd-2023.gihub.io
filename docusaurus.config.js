@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DSD UbiCom 2023',
   tagline: 'Motion Prediction',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.jpg',
 
   // Set the production url of your site here
   url: 'https://ubicom-dsd-2023.github.io/',
@@ -65,20 +65,20 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'DSD UbiCom 2023',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'DSD UbiCom 2023',
+          src: 'img/icon.jpg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io',
             label: 'GitHub',
             position: 'right',
           },
