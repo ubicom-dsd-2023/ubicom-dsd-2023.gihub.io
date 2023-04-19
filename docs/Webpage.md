@@ -1,4 +1,4 @@
-# DSD-Ubicom
+# Web App
 
 ## Team
 
