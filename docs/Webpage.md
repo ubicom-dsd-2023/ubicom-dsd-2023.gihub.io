@@ -2,6 +2,10 @@
 
 ## Team
 
+<div align="center">
+    <img  src="https://raw.githubusercontent.com/ubicom-dsd-2023/.github/main/static/img/web.svg"/>
+</div>
+
 Tomás Silva: 
  - **Team Leader**
  - All
