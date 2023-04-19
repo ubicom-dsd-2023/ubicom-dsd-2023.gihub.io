@@ -3,7 +3,7 @@
 ## Team
 
 <div align="center">
-    <img  src="[https://raw.githubusercontent.com/ubicom-dsd-2023/.github/main/static/img/web.svg](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/blob/main/static/img/web.svg)"/>
+    <img  src="https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/blob/main/static/img/web.svg"/>
 </div>
 
 Tomás Silva: 
