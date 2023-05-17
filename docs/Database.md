@@ -304,3 +304,106 @@ An autoincrementing integer of four bytes - chosen due to the fact it is autoinc
 JSON datatype that stores data in binary format and has multiple built-in functions in PostgreSQL specifically designed to work with it - chosen due to the fact that our database was designed in PostgreSQL and it’s storage format allows a faster access than other JSON types.
 
 [PostgreSQL - Datatype JSON](https://www.postgresql.org/docs/15/datatype-json.html)
+
+## Generic Database Queries
+
+Here are some examples of database requests.
+
+### User
+
+#### Insert
+
+```sql
+INSERT INTO "user" (username, password, phone_number, birthday, email, created_at)
+VALUES ('JaneDoe', 'password', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
+```
+
+#### Select
+
+```sql
+SELECT * FROM "user";
+WHERE "username" = 'Username to search';
+```
+
+#### Update
+
+```sql
+UPDATE "user"
+SET "phone_number" = '0987654321'
+WHERE "username" = 'JaneDoe';
+```
+
+#### Delete
+
+```sql
+DELETE FROM "user"
+WHERE "username" = 'JohnSabonis';
+```
+
+### Device
+
+TODO
+
+### Motion Record
+
+TODO
+
+### Motion Frame
+
+TODO
+
+## Test Functional Requirements (SQL Queries)
+
+### User Table
+
+#### should be possible to create user
+
+```sql
+INSERT INTO "user" (username, password, phone_number, birthday, email, created_at)
+VALUES ('JaneDoe', 'password', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
+```
+
+#### should be possible to create user without email
+
+```sql
+INSERT INTO "user" (username, password, phone_number, birthday, created_at)
+VALUES ('JaneDoe', 'password', '123456789', '1990-01-01', NOW() );
+```
+
+#### should be possible to create user without phone number
+
+```sql
+INSERT INTO "user" (username, password, birthday, email, created_at)
+VALUES ('JaneDoe', 'password', '1990-01-01', 'jane_doe@example.mail', NOW() );
+```
+
+#### should not be possible create a user with same username
+
+```sql
+INSERT INTO "user" (username, password, phone_number, birthday, email, created_at)
+VALUES ('JaneDoe', 'password', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
+
+INSERT INTO "user" (username, password, phone_number, birthday, email, created_at)
+VALUES ('JaneDoe', 'password2', '023456789', '1990-01-02', 'jane_doe2@example.mail', NOW() );
+```
+
+#### should not be possible create a user without username
+
+```sql
+INSERT INTO "user" (password, phone_number, birthday, email, created_at)
+VALUES ('password', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
+```
+
+#### should not be possible create a user without password
+
+```sql
+INSERT INTO "user" (username, phone_number, birthday, email, created_at)
+VALUES ('JaneDoe', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
+```
+
+#### should not be possible create a user without birthday
+
+```sql
+INSERT INTO "user" (username, password, phone_number, email, created_at)
+VALUES ('JaneDoe', 'password', '123456789', 'jane_doe@example.mail', NOW() );
+```
