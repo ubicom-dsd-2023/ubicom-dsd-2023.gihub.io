@@ -2,9 +2,7 @@
 
 ## Team
 
-<div align="center">
-    ![Logo](@site/static/img/web.svg)
-</div>
+![Logo](@site/static/img/web.svg)
 
 Tomás Silva: 
  - **Team Leader**
