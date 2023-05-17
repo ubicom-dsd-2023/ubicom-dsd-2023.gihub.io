@@ -407,3 +407,15 @@ VALUES ('JaneDoe', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
 INSERT INTO "user" (username, password, phone_number, email, created_at)
 VALUES ('JaneDoe', 'password', '123456789', 'jane_doe@example.mail', NOW() );
 ```
+
+### Device Table
+
+TODO
+
+### Motion Record Table
+
+TODO
+
+### Motion Frame Table
+
+TODO
