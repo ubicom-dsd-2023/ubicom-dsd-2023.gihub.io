@@ -290,3 +290,17 @@ ALTER TABLE "device_motion_record" ADD FOREIGN KEY ("motion_id") REFERENCES "mot
 
 ALTER TABLE "device_motion_record" ADD FOREIGN KEY ("device_id") REFERENCES "device" ("id");
 ```
+
+## Description of Some Data Types Used
+
+### Serial
+
+An autoincrementing integer of four bytes - chosen due to the fact it is autoincrementing and doesn’t take much space in the DataBase.
+
+[PostgreSQL - Datatype Serial](https://www.postgresql.org/docs/15/datatype-numeric.html#DATATYPE-SERIAL)
+
+### JSONB
+
+JSON datatype that stores data in binary format and has multiple built-in functions in PostgreSQL specifically designed to work with it - chosen due to the fact that our database was designed in PostgreSQL and it’s storage format allows a faster access than other JSON types.
+
+[PostgreSQL - Datatype JSON](https://www.postgresql.org/docs/15/datatype-json.html)
