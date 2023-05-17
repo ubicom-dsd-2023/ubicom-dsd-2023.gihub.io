@@ -3,7 +3,7 @@
 ## Team
 
 <div align="center">
-    ![Logo](@site/static/img/web.png)
+    ![Logo](@site/static/img/web.svg)
 </div>
 
 Tomás Silva: 
