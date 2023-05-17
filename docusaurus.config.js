@@ -78,12 +78,6 @@ const config = {
             label: "Documentation",
           },
           {
-            to: "/test_report/",
-            label: "Test Report",
-            position: "left",
-            activeBaseRegex: `/test_report/`,
-          },
-          {
             href: "https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io",
             label: "GitHub",
             position: "right",
