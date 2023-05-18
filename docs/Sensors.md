@@ -10,9 +10,9 @@ TODO
 
 ## How to Use the Programs of the Embedded System
 
-1. Check if your device supports Bluetooth
+1. Turn on the six sensors (WT-901 BLE)
 2. Install `conda`
-3. Clone the repository
+3. Clone the repository onto your computer
 
 ```bash
 git clone https://github.com/atoposyz/atoposyz.github.io
