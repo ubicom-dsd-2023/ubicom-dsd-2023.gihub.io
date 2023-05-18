@@ -32,4 +32,5 @@
 img {
   max-height: 50vh;
   width: auto;
+  max-width: 640px;
 }
