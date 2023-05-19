@@ -1,38 +1,13 @@
 # Web App
 
-## Team
+## Description
+This file will be the how to use the webpage.
 
-![Logo](@site/static/img/web.svg)
+### URL
+TODO
 
-Tomás Silva: 
- - **Team Leader**
- - All
-
-Tiago Morais: 
- - System Architecture
- - Requirement Analist
-
-Rui Pinto:
- - Secondary Developer
- - System Architecture
-
-Cameron Davis:
- - Main Developer
-
-Jiaxi Yan:
- - Requirement Analist
- - Tester
-
-Meow:
- - Tester
-
-Will:
- - Tester
-
-
-## Change Log
- - create requirement analysis 3.5.2023 -- 3.12.2023
- - update requirement analysis 3.12.2023 -- 3.19.2023
- - update requirement analysis 3.19.2023 -- 3.26.2023
- - update requirement analysis and finish some of the design of HTMLs 3.26.2023 -- 4.2.2023
- - finish the whole requirement analysis and consult with other groups 4.2.2023 -- 4.9.2023
+#### Use the Web Page
+1. Go to the URL.
+2. U will be redirected to this page. <br> ![SignIn](./Mockups/Webpage/buttonSignIn.png) <br> Put the username and the password and click in the button sign in.
+3. If there is a user with that information u will be redirected to the dashboard.html and u will be logged in the web app.
+4. In this page u have a navigation bar with some information ![image](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/9a8e09b9-7c5f-4d46-b3fd-07d167c7a7e3)
