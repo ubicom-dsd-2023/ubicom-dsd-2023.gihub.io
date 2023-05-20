@@ -9,17 +9,17 @@ TODO
 #### Use the Web Page
 1. Go to the URL.
 #### Sign In
-2. U will be redirected to this page. 
+2. You will be redirected to this page. 
 
 ![SignIn](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/44fc9198-4505-4e86-9320-bbdfad86183e)
 
-3.Put the username and the password and click in the button SIGN IN. If there is a user with that information u will be redirected to the dashboard.html and u will be logged in the web app.
+3.Put the username and the password and click in the button SIGN IN. If there is a user with that information you will be redirected to the dashboard.html and you will be logged in the web app.
 
 #### Dashboard
-5. In this page u have a navigation bar with some information. ![Dashboard](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf1ca5d3-84d3-4e28-9932-a01e00986f63)
+5. In this page you have a navigation bar with some information. ![Dashboard](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf1ca5d3-84d3-4e28-9932-a01e00986f63)
 
 #### Menu
-5. This menu  will be used to go to the different pages. 
+5. This menu will be used to go to the different pages. 
 
 ![Menu](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/1a7f8d2c-9db3-4e3c-bfa4-1383bae8bff8)
  
@@ -43,7 +43,7 @@ TODO
  7. In the Trained Data page we will be able to see the data gather from the sensors. ![Trained Data](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/b3132c33-f797-4f5b-ae70-29c539333cca)
 
 #### Manager Page
-8. In the Managers page we can see all the managers and if they are admin or not(If the managers is a admin he will have a checkmark). We also have a search tab to search for the managers. If the manager we are logged in is a admin we can Add another Manager or Admin. ![Manager](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf31933b-8f34-4825-baad-ec571123a403)
+8. In the Managers page we can see all the managers and if they are admin or not(If the managers is a admin he will have a checkmark). We also have a search tab to search for the managers. If the manager we are logged in, is a admin we can Add another Manager or Admin. ![Manager](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf31933b-8f34-4825-baad-ec571123a403)
 
  ![AddManagers](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/400f9787-bb81-4b83-9035-54850f716ea6)
 
