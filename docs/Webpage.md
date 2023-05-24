@@ -11,9 +11,7 @@ TODO
 #### Sign In
  You will be redirected to this page. 
 
-<p align="center" width="100%">
-    <img width="33%" src="https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/44fc9198-4505-4e86-9320-bbdfad86183e"> 
-</p>
+![SignIn](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/44fc9198-4505-4e86-9320-bbdfad86183e)
 
  Put the username and the password and click in the button SIGN IN. If there is a user with that information you will be redirected to the dashboard.html and you will be logged in the web app.
 
@@ -23,18 +21,16 @@ TODO
 #### Menu
  This menu will be used to go to the different pages. 
  
+![Menu](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/1a7f8d2c-9db3-4e3c-bfa4-1383bae8bff8)
 
-<p align="center" width="100%">
-    <img width="33%" src="https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/1a7f8d2c-9db3-4e3c-bfa4-1383bae8bff8"> 
-</p>
- 
- #### Pages 
- <ul><li> Users - See Users information.</li>
- <li>Trainer Data - See sensors information.</li>
- <li>Managers - See Managers information.</li>
- <li> Logs - See logs information.</li></ul>
- 
- 
+#### Pages 
+  
+   - Users - See Users information.
+   - Trainer Data - See sensors information.
+   - Managers - See Managers information.
+   - Logs - See logs information.
+     
+  
  #### User Page
  In the Users page we can search in the search bar for a certain user and see their data. ![UserSearch](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/fb3a439c-b9b0-4c8a-9140-a2b597591451)
  
