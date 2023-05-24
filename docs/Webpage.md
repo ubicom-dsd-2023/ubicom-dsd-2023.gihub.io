@@ -8,6 +8,7 @@ TODO
 
 #### Use the Web Page
  Go to the URL.
+ 
 #### Sign In
  You will be redirected to this page. 
 
@@ -16,7 +17,8 @@ TODO
  Put the username and the password and click in the button SIGN IN. If there is a user with that information you will be redirected to the dashboard.html and you will be logged in the web app.
 
 #### Dashboard
- In this page you have a navigation bar with some information. ![Dashboard](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf1ca5d3-84d3-4e28-9932-a01e00986f63)
+ In this page you have a navigation bar with some information. 
+ ![Dashboard](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf1ca5d3-84d3-4e28-9932-a01e00986f63)
 
 #### Menu
  This menu will be used to go to the different pages. 
@@ -32,25 +34,31 @@ TODO
      
   
 #### User Page
- In the Users page we can search in the search bar for a certain user and see their data. ![UserSearch](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/fb3a439c-b9b0-4c8a-9140-a2b597591451)
+ In the Users page we can search in the search bar for a certain user and see their data. 
+ ![UserSearch](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/fb3a439c-b9b0-4c8a-9140-a2b597591451)
  
- If we are a admin we can click on the edit symbol to edit or delete a user. ![EditUser](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/e8c5d584-a6e9-4546-aa7b-bdfa01bbe167)
+ If we are a admin we can click on the edit symbol to edit or delete a user. 
+ ![EditUser](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/e8c5d584-a6e9-4546-aa7b-bdfa01bbe167)
  
- In the Green button Add User we can create another user. ![AddUser](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/725108d3-e225-4162-afee-eab6656de8a8)
+ In the Green button Add User we can create another user. 
+ ![AddUser](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/725108d3-e225-4162-afee-eab6656de8a8)
 
 
 #### Trained Data Page
- In the Trained Data page we will be able to see the data gather from the sensors. ![Trained Data](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/b3132c33-f797-4f5b-ae70-29c539333cca)
+ In the Trained Data page we will be able to see the data gather from the sensors. 
+ ![Trained Data](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/b3132c33-f797-4f5b-ae70-29c539333cca)
 
 
 #### Manager Page
- In the Managers page we can see all the managers and if they are admin or not(If the managers is a admin he will have a checkmark). We also have a search tab to search for the managers. If the manager we are logged in, is a admin we can Add another Manager or Admin. ![Manager](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf31933b-8f34-4825-baad-ec571123a403)
+ In the Managers page we can see all the managers and if they are admin or not(If the managers is a admin he will have a checkmark). We also have a search tab to search for the managers. If the manager we are logged in, is a admin we can Add another Manager or Admin. 
+ ![Manager](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf31933b-8f34-4825-baad-ec571123a403)
 
  ![AddManagers](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/400f9787-bb81-4b83-9035-54850f716ea6)
 
 
 #### Logs Page
- In this page we can see the logs and see what manager did that action ![LogPage](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bb56e661-21f7-4472-af51-71e3c5f55668)
+ In this page we can see the logs and see what manager did that action
+ ![LogPage](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bb56e661-21f7-4472-af51-71e3c5f55668)
 
  If the manager clicks in the i, that is in the table it will be redirected to a Log information page where he can see all the info of that log.
 
