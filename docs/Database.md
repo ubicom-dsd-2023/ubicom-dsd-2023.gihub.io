@@ -311,14 +311,14 @@ Here are some examples of database requests.
 
 ### User
 
-#### Insert
+#### Create
 
 ```sql
 INSERT INTO "user" (username, password, phone_number, birthday, email, created_at)
 VALUES ('JaneDoe', 'password', '123456789', '1990-01-01', 'jane_doe@example.mail', NOW() );
 ```
 
-#### Select
+#### Read
 
 ```sql
 SELECT * FROM "user";
@@ -342,15 +342,82 @@ WHERE "username" = 'JohnSabonis';
 
 ### Device
 
-TODO
+#### Create
+
+```sql
+INSERT INTO "device" ("user_id", "port", "ip")
+VALUES ('2', '80', '192.168.100.2');
+
+
+```
+#### Read
+```sql
+SELECT * FROM "device" WHERE "id" = '2';
+```
+#### Update
+```sql
+UPDATE "device"
+SET "user_id" = '10', "port" = '80', "ip" = '192.168.100.10'
+WHERE "id" = '10';
+
+```
+#### Delete
+```sql
+DELETE FROM "device" WHERE "id" = '2';
+
+```
 
 ### Motion Record
 
-TODO
+#### Create
+```sql
+INSERT INTO "motion_record" ("user_id", "motion_tag", "initial_timestamp", "is_auto")
+VALUES (<user_id>, <motion_tag>, '<initial_timestamp>', <is_auto>);
 
+```
+#### Read
+```sql
+SELECT * FROM "motion_record" WHERE "id" = <motion_id>;
+
+```
+#### Update
+```sql
+UPDATE "motion_record"
+SET "user_id" = <user_id>, "motion_tag" = <motion_tag>, "initial_timestamp" = '<initial_timestamp>', "is_auto" = <is_auto>
+WHERE "id" = <motion_id>;
+
+```
+#### Delete
+```sql
+DELETE FROM "motion_record" WHERE "id" = <motion_id>;
+
+```
 ### Motion Frame
 
-TODO
+#### Create
+```sql
+INSERT INTO "motion_frame" ("motion_id", "frame", "timestamp")
+VALUES (<motion_id>, '<frame_data>', '<timestamp>');
+
+```
+#### Read
+```sql
+SELECT * FROM "motion_frame" WHERE "motion_id" = <motion_id>;
+
+```
+#### Update
+```sql
+UPDATE "motion_frame"
+SET "motion_id" = <motion_id>, "frame" = '<frame_data>', "timestamp" = '<timestamp>'
+WHERE "id" = <frame_id>;
+
+```
+#### Delete
+```sql
+DELETE FROM "motion_frame" WHERE "id" = <frame_id>;
+
+```
+
 
 ## Test Functional Requirements (SQL Queries)
 
