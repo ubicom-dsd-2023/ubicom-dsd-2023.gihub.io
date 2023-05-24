@@ -42,16 +42,18 @@ TODO
  #### Trained Data Page
  7. In the Trained Data page we will be able to see the data gather from the sensors. ![Trained Data](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/b3132c33-f797-4f5b-ae70-29c539333cca)
 
+
 #### Manager Page
 8. In the Managers page we can see all the managers and if they are admin or not(If the managers is a admin he will have a checkmark). We also have a search tab to search for the managers. If the manager we are logged in, is a admin we can Add another Manager or Admin. ![Manager](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bf31933b-8f34-4825-baad-ec571123a403)
 
  ![AddManagers](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/400f9787-bb81-4b83-9035-54850f716ea6)
 
-#### Logs Page
 
+#### Logs Page
 9. In this page we can see the logs and see what manager did that action ![LogPage](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/bb56e661-21f7-4472-af51-71e3c5f55668)
 
 If the manager clicks in the i, that is in the table it will be redirected to a Log information page where he can see all the info of that log.
+
 ![LogInformation](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/61a885f3-650d-4b7f-9e36-7c1e6239f4a4)
 
 
