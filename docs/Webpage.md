@@ -31,15 +31,15 @@ TODO
    - Logs - See logs information.
      
   
- #### User Page
+#### User Page
  In the Users page we can search in the search bar for a certain user and see their data. ![UserSearch](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/fb3a439c-b9b0-4c8a-9140-a2b597591451)
  
  If we are a admin we can click on the edit symbol to edit or delete a user. ![EditUser](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/e8c5d584-a6e9-4546-aa7b-bdfa01bbe167)
  
  In the Green button Add User we can create another user. ![AddUser](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/725108d3-e225-4162-afee-eab6656de8a8)
 
- 
- #### Trained Data Page
+
+#### Trained Data Page
  In the Trained Data page we will be able to see the data gather from the sensors. ![Trained Data](https://github.com/ubicom-dsd-2023/ubicom-dsd-2023.github.io/assets/58189630/b3132c33-f797-4f5b-ae70-29c539333cca)
 
 
