@@ -4,7 +4,7 @@
 This file will be the how to use the webpage.
 
 ### URL
-TODO
+https://dsd-ubicom.netlify.app/
 
 #### Use the Web Page
  Go to the URL.
