@@ -15,7 +15,7 @@ TODO
 3. Clone the repository onto your computer
 
 ```bash
-git clone https://github.com/atoposyz/atoposyz.github.io
+git clone https://github.com/dsd-pirates/dsd-pirates.github.io
 ```
 
 3. Setting up `conda` environment
@@ -29,14 +29,14 @@ python -m pip install bleak
 4. Configure the MAC address of the sensor
 
 ```bash
-cd atoposyz.github.io/project/BasedOnSDS
+cd dsd-pirates.github.io/project/BasedOnSDS
 nano config.json
 ```
 
 5. Start the Bluetooth receiving server
 
 ```bash
-cd atoposyz.github.io/project/BasedOnSDS
+cd dsd-pirates.github.io/project/BasedOnSDS
 conda activate PI_rates
 python ES.py
 ```
@@ -51,7 +51,7 @@ CLI testing feature in the project that was not included in the requirements ana
 2. Use the same `conda` environment to start `TC.py`
 
 ```bash
-cd atoposyz.github.io/project/BasedOnSDS
+cd dsd-pirates.github.io/project/BasedOnSDS
 conda activate PI_rates
 python TC.py
 ```
