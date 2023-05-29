@@ -6,8 +6,6 @@ sidebar_position: 2
 
 ## Description
 
-TODO
-
 ## How to Use the Programs of the Embedded System
 
 1. Turn on the six sensors (WT-901 BLE)
